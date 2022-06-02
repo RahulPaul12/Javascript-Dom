@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   
+   
+    font-family:'Montserrat', sans-serif;
+}
+h1{
+    padding-top: 10%;
+    display: flex;
+   
+    justify-content: center;
+   
+    align-items: center;
+}
+.button{
+    padding-top: 3%;
+    text-align: center;
+    display: flex;
+   
+    justify-content: center;
+     
+    align-items: center;
+}
+.button button{
+    padding:15px 20px ;
+    outline: none;
+	background-color: #000;
+	color: #fff;
+    transform: 1s;
+    border: 1px solid #000;
+}
+button:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+    transition: ease 1s;
+}
