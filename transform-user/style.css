@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+   
+   text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+h1{
+    padding-top: 10%;
+    display: flex;
+   
+    justify-content: center;
+   
+    align-items: center;
+}
+.changer{
+    padding-top: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.change{
+    padding-top: 3%;
+    text-align: center;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.input-icon{
+    background-color: rgb(208, 206, 206);
+    padding:6px 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+    
+}
+.changer input{
+    padding:7px 10px;
+    margin-bottom: 5px;
+    text-align:left;
+    margin-right: 2%;
+    border-left: none;
+    outline: none;
+}
+#copy{
+    padding: 8px 12px;
+    border-radius: 5px ;
+}
+.changer button{
+    padding:15px 73px ;
+    border-radius: 5px;
+    outline: none;
+	background-color: #000;
+	color: #fff;
+    transform: 1s;
+    border: 1px solid #000;
+}
+button:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+    transition: ease 1s;
+}
