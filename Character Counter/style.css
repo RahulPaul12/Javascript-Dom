@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url('./pexels-ann-h-1762851.jpg');
+
+}
+.container{
+    background-color: lightslategrey;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: max-content;
+    padding: 5% 0;
+}
+textarea{
+    color: blue;
+}
