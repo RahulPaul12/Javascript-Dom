@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    position: relative;
+    background: url(./image/image-0.jpg);
+    background-position: center;
+   background-size: cover;
+    min-height: 80vh;
+    width: 80%;
+    display: flex;
+   justify-content: space-between;
+}
+
+.fa-chevron-left{
+    margin-top: 25%;
+    height: fit-content;
+    left: 0;
+    background:  rgb(91, 203, 255);
+    color: #fff !important;
+    
+    border: 0.2rem solid  rgb(91, 203, 255);
+    font-size: 1.2rem;
+}
+.fa-chevron-right{
+    margin-top: 25%;
+    height: fit-content;
+    right: 0;
+    background:  rgb(91, 203, 255);
+    color: #fff !important;
+    
+    border: 0.2rem solid  rgb(91, 203, 255);
+    font-size: 1.2rem;
+}
