@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Spline+Sans+Mono&display=swap" rel="stylesheet">       
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form action="" class="form" id="form">
+          <span class="height"
+            ><label for="height">Height : </label
+            ><input required type="text" id="height" min="5" placeholder="Enter your height in cm"
+          /></span>
+          <br />
+          <br />
+          <span class="weight"
+            ><label for="weight">Weight : </label
+            ><input required type="text" id="weight" min="5" placeholder="Enter your weight in kg"
+          /></span>
+          <br />
+          <br />
+          <button class="calculate" id="calculate" type="submit">Calculate</button><br /><br />
+          <div id="result"></div>
+          <br />
+          <div id="weight-guide">
+            <h3>BMI Weight Guide</h3>
+            <p>Under Weight = Less than 18.6</p>
+            <p>Normal Range = 18.6 and 24.9</p>
+            <p>Overweight = Greater than 24.9</p>
+          </div>
+        </form>
+      </div>
+      <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

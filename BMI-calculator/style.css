@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: grey;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: brown;
+    font-family: 'Spline Sans Mono', monospace;
+    text-align: center;
+}
+
+.form{
+    font-family: 'Montserrat', sans-serif;
+    color: brown;
+    font-family: 'Spline Sans Mono', monospace;
+    text-align: center;
+}
+#weight-guide{
+    padding: 3%;
+    display: inline-block;
+    background-color: cornsilk;
+    border: 1px solid red;
+}
+button{
+    background-color: coral;
+    padding: 7px 3%;
+    outline: none;
+    color: white;
+    border: none;
+}
+input{
+    width: 30%;
+    height: 35px;
+}
