@@ -1,0 +1,25 @@
+#display{
+    width: 500px;
+}
+.img{
+    position:relative;
+    margin-top: 25px;
+    width: 130px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: 90px;
+
+}
+.img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+marquee{
+    background-color: indianred;
+    margin-top: 180px;
+    color: white;
+    border-radius: 3px;
+}
+#steve{
+    background-color: gold;
+    color: black;
+}
